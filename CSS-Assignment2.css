@@ -1,0 +1,83 @@
+body{
+ margin: 5px;
+ padding: 5px;
+ border: 5px solid black;
+ 
+
+#logo{
+    width: 65%;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+#container{
+    align-content: top;
+    height: 9%;
+    width: 100%;
+    background-color: silver;
+    margin-bottom: 5px;
+}
+#search{
+    height: 100px;
+    margin: auto;
+    width: 25%;
+    align-content: top;
+    text-align: center;
+    height: 100%;
+}
+h4{
+    margin: 0%;
+}
+#search > input{
+    border: 1px solid blue;
+    width: 400px;
+}
+.googlesearch{
+    border: 1px solid blue;
+}
+#info{
+    display: flex;
+    margin: auto;
+    background-color: ;
+}
+#special{
+    
+    text-align: center;
+    padding: 20px;
+    width: 38.3%;
+    background-color: aqua;
+}
+p{
+    margin: 0%;
+}
+a{
+    display: block;
+}
+#help{
+    text-align: center;
+    padding: 20px;
+    width: 22.3%;
+    background-color: aquamarine;
+}
+#getgoogle{
+    text-align: center;
+    width: 10%;
+    background-color: aqua;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.sub{
+    display: inline;
+    width: auto;
+    margin-right: 5px ;
+    
+}
+.email{
+    margin-right: auto;
+    margin-left: auto;
+    width: 150;
+}
+.arch{
+    display: inline;
+}
