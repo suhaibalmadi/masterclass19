@@ -1,0 +1,103 @@
+body{
+    background-color: gray;
+}
+#content{
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 700px;
+}
+#content > h2{
+    cursor: pointer;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    position: absolute;
+}
+button {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 25px
+}
+.google{
+    display: inline-block;
+    width: 35px;
+}
+.apple{
+    
+    display: inline-block;
+    width: 35px;
+}
+#apple{
+    font-weight: bold;
+}
+.or-divider {
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; 
+}
+
+
+.or-divider::after {
+    margin-left: 5px;
+    margin-right: 100px;
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000000;
+}
+.or-divider::before{
+    margin-left: 100px;
+    margin-right: 5px;
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #000000;
+}
+
+.or-divider span {
+    padding: 0 10px;
+    color:black;
+    font-size: 14px;
+    
+}
+input{
+    font-size: larger;
+    width: 300px;
+    height: 50px;
+}
+.next {
+    
+    margin-top: 20px;
+    background-color: #000000;
+    color: white;
+}
+.password{
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+}
